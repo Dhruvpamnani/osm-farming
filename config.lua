@@ -61,9 +61,7 @@ Config.ItemList = {
 }
 
 Config.Blips = {
-    {title="Cow Farm", colour=16, id=141, x = 2478.392578125, y = 4728.8315429688, z = 34.303840637207},
-    {title="Milk Process", colour=16, id=141, x = 2502.120, y = 4801.250, z = 43.740},
-    {title="Milk Sell", colour=16, id=141, x = 2562.54, y = 4683.0, z = 34.09},
+   	{title="Cow Farm", colour=16, id=141, x = 2478.392578125, y = 4728.8315429688, z = 34.303840637207},
 	{title="Corn Farm Supply", colour=16, id=140, x = 2041.5297851562, y = 4854.5625, z= 43.097927093506},
 	{title="Braddock Farm", colour=16, id=140, x = 2195.4331054688, y = 5602.6352539062, z = 53.584144592285},
 	{title="Orange Farm", colour=16, id=103, x = 346.62341308594, y = 6522.9448242188, z = 28.830759048462},
