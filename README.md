@@ -3,7 +3,7 @@ I think its one of the Largest Farming Scripts ever made for QBUS Servers. With 
 
 ## DISCORD
 ![https://discord.gg/jrNxkpVaJU](https://discordapp.com/api/guilds/816584206838398997/widget.png?style=banner4)
-
+<iframe src="https://discord.com/widget?id=816584206838398997&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 ## IN-RP FEATURES
 - Using Tractors to Mow the Farm / Field
