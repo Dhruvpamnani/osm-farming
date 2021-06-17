@@ -11,8 +11,8 @@ AddEventHandler('osm-farming:pickedUpCannabis', function()
 	local Player = QBCore.Functions.GetPlayer(src)
 
 	  if TriggerClientEvent("QBCore:Notify", src, "Picked up some Corn Kernels!!", "Success", 3000) then
-		  Player.Functions.AddItem('cannabis', Config.CornOutput) ---- change this shit 
-		  TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items['cannabis'], "add")
+		  Player.Functions.AddItem('corn_kernel', Config.CornOutput) ---- change this shit 
+		  TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items['corn_kernel'], "add")
 	  end
 end)
 
@@ -61,7 +61,7 @@ AddEventHandler('osm-farming:ProcessCorn', function()
 		local src = source
     	local Player = QBCore.Functions.GetPlayer(src)
 
-		local item = Player.Functions.GetItemByName('corn')
+		local item = Player.Functions.GetItemByName('corn_kernel')
 		if item ~= nil then 
 			if item.amount > 4 then 
 				Player.Functions.RemoveItem('corn_kernel', 4)----change this
