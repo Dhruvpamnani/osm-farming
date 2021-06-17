@@ -93,7 +93,7 @@ Citizen.CreateThread(
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		Citizen.Wait(5)
 		local playerPed = PlayerPedId()
 		local coords = GetEntityCoords(playerPed)
 
@@ -135,19 +135,14 @@ Citizen.CreateThread(function()
 				Draw3DText(nowcoords.x, nowcoords.y,nowcoords.z, '[E] - Pack Oranges', 4, 0.08, 0.08, Config.SecondaryColor)
 			end
 			if IsControlJustReleased(0, 38) and not isProcessing then
-				QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result1)
-					if result1 then 
-						hasbox = true
-					else 
-						QBCore.Functions.Notify('You need a Box to Proceed!')
-					end
-				end, 'box')
-				Citizen.Wait(100)
-				QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result)
-					if result and hasbox then
-						TriggerServerEvent('osm-farming:ProcessOranges')
-					end
-				end, 'orange')
+				-- QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result)
+				-- 	if result and hasbox then
+				-- 		TriggerServerEvent('osm-farming:ProcessOranges')
+				-- 	else
+				-- 		QBCore.Functions.Notify('You need a Box and Oranges to Proceed!')
+				-- 	end
+				-- end, 'orange')
+				TriggerServerEvent('osm-farming:ProcessOranges')
 			end
 		elseif GetDistanceBetweenCoords(coords, Config.CircleZones.MilkPack.coords, true) < 3 then
 			local nowcoords = Config.CircleZones.MilkPack.coords
@@ -157,19 +152,22 @@ Citizen.CreateThread(function()
 				Draw3DText(nowcoords.x, nowcoords.y,nowcoords.z, '[E] - Prepare Milk Pack', 4, 0.08, 0.08, Config.SecondaryColor)
 			end
 			if IsControlJustReleased(0, 38) and not isProcessing then
-				QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result1)
-					if result1 then 
-						hasbox = true
-					else 
-						QBCore.Functions.Notify('You need a Box to Proceed!')
-					end
-				end, 'box')
-				Citizen.Wait(100)
-				QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result)
-					if result and hasbox then
-						TriggerServerEvent('osm-farming:ProcessMilk')
-					end
-				end, 'milk')
+				-- QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result)
+				-- 	if result then 
+				-- 		hasbox = true
+				-- 	else 
+				-- 		QBCore.Functions.Notify('You need a Box to Proceed!')
+				-- 	end
+				-- end, 'box')
+				-- Citizen.Wait(100)
+				-- QBCore.Functions.TriggerCallback('QBCore:HasItem', function(result)
+				-- 	if result and hasbox then
+				-- 		TriggerServerEvent('osm-farming:ProcessMilk')
+				-- 	else
+				-- 		QBCore.Functions.Notify('You need a Box and Milk to Proceed!')
+				-- 	end
+				-- end, 'milk')
+				TriggerServerEvent('osm-farming:ProcessMilk')
 			end
 
 		elseif GetDistanceBetweenCoords(coords, Config.TractorCoords, true) < 3 then
@@ -308,7 +306,7 @@ end
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		Citizen.Wait(5)
 
 		local playerPed = PlayerPedId()
 		local coords = GetEntityCoords(playerPed)
