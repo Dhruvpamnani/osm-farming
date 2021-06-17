@@ -2,7 +2,8 @@
 I think its one of the Largest Farming Scripts ever made for QBUS Servers. With Corn Farming , it has Cows to Get Milk from. I also integrated an Orange farm to get some oranges and pack them. Taking Reference from PawnShop, Selling System has been built to get you Money out of your Work! I hope that you guys like my work! A full list of Features is given below. 
 
 ## DISCORD
-![Discord Banner 3](https://discordapp.com/api/guilds/816584206838398997/widget.png?style=banner3)
+816584206838398997
+<img src="https://discordapp.com/api/guilds/[SERVER ID]/widget.png?style=banner4" alt="Discord Banner 4"/>
 
 ## IN-RP FEATURES
 - Using Tractors to Mow the Farm / Field
