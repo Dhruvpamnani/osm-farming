@@ -16,7 +16,7 @@ I think its one of the Largest Farming Scripts ever made for QBUS Servers. With 
 - Highly Customizable (You can customize literally everyting using the config.)
 - Blips for all Interactable Locations 
 - Unique MLO for Bradlock Farm 
-- Unique Items for the Script itself. 
+- Unique Items for the Script itself with Images. 
 
 ## SETUP
 1. Add these items to your `shared.lua` file. 
@@ -29,6 +29,8 @@ I think its one of the Largest Farming Scripts ever made for QBUS Servers. With 
 	["milk_pack"] 		             = {["name"] = "milk_pack", 			        ["label"] = "Milk Pack", 	            ["weight"] = 500, 		["type"] = "item", 		["image"] = "milk_pack.png", 	        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Milk pack"},
 	["box"] 		                 = {["name"] = "box", 			                ["label"] = "Box", 	                	["weight"] = 100, 		["type"] = "item", 		["image"] = "box.png", 	            ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "box"},
 ```
+Then navigate to your Inventory. Add Images provided in `images` folder to the Inventory. 
+
 2. Add the Script to your resources.cfg 
 3. Start your Server Again. 
 
