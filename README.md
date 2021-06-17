@@ -1,6 +1,7 @@
 # QBUS x OSM | A VAST FARMING SCRIPT | Cows, Corn Farm, Oranges and more!
-I think its one of the Largest Farming Scripts ever made for QBUS Servers. A full list of Features is given below. 
+I think its one of the Largest Farming Scripts ever made for QBUS Servers. With Corn Farming , it has A full list of Features is given below. 
 
+## DISCORD
 ![Discord Banner 3](https://discordapp.com/api/guilds/816584206838398997/widget.png?style=banner3)
 
 ## IN-RP FEATURES
@@ -9,6 +10,7 @@ I think its one of the Largest Farming Scripts ever made for QBUS Servers. A ful
 - Cow Farm with Lots of Cows that wander around the farm.
 - Milk the Cows, collect Milk and Pack it to Sell it.
 - Integrated Orange Farm to collect Oranges and Pack them to Sell them!
+- Selling System - PawnShop Inspired
 
 ## SCRIPT FEATURES
 - Highly Customizable (You can customize literally everyting using the config.)
