@@ -1,7 +1,7 @@
 -- SCRIPT DEVELOPED BY OSMIUM | OSMFX | DISCORD.IO/OSMFX --
-QBCore = nil
 
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
+local QBCore = exports['qb-core']:GetCoreObject()
+
 
 local playersProcessingCannabis = {}
 
