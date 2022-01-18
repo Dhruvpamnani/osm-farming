@@ -1,6 +1,6 @@
 -- SCRIPT DEVELOPED BY OSMIUM | OSMFX | DISCORD.IO/OSMFX --
 
-QBCore = nil
+local QBCore = exports['qb-core']:GetCoreObject()
 isLoggedIn = true
 
 local menuOpen = false
